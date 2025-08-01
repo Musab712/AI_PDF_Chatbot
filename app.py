@@ -12,7 +12,7 @@ st.write("Upload a PDF file and ask a question based on its content.")
 
 # File Upload
 uploaded_file = st.file_uploader("Upload your PDF", type="pdf")
-
+a
 if uploaded_file:
     pdf_path = "uploaded.pdf"
 
