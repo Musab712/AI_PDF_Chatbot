@@ -1,0 +1,23 @@
+# UI framework to run the interactive web app
+streamlit
+
+# Load environment variables (like OPENAI_API_KEY) from .env file
+python-dotenv
+
+# Official OpenAI API client used by langchain-openai for LLM and embeddings
+openai
+
+# Core LangChain components (PromptTemplate, Runnables, OutputParser, etc.)
+langchain
+
+# Community integrations: PDF loader, FAISS vector store
+langchain-community
+
+# Provides OpenAI-specific components for LangChain (ChatOpenAI, OpenAIEmbeddings)
+langchain-openai
+
+# FAISS vector database for storing and retrieving document embeddings
+faiss-cpu
+
+# Tokenizer used by OpenAI models (used internally by LangChain chunking/text splitting)
+tiktoken
